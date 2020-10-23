@@ -1,0 +1,979 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+
+header {
+    height: 104px;
+}
+
+.topnav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.topnav  a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    margin-top: 25px;
+}
+
+.topnav a.topLogo {
+  float: left;
+  color: white;
+}
+
+.topLogo {
+    height: 49px;
+    width: 135px;
+    margin-left: 108px;
+    margin-top: -13px;
+    padding: 16px 24px 12px 24px;
+    font-family: Objectivity;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    background: black;
+    color: white;    
+}
+
+#header-getstarted {
+    width: 131px;
+    height: 40px;
+    background: #F2707C;
+    color: white;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    padding: 8px 24px;
+    border-style: none;
+    border-radius: 4px;
+    margin-block-start: -40px;
+}
+  
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .topnav a.right {
+      float: right;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+/* ____________________________________header section ends here */
+
+.hero-container {
+    display: flex;
+}
+
+.hero-text-container {
+    height: 267px;
+    width: 496px;
+    margin-left: 108px;
+    margin-top: 156px;
+    border-radius: 30px;
+}
+
+.hero-text-container h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    text-align: left;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.hero-text-container p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-block-start: 16px;
+    margin-block-end: 0px;
+}
+
+#hero-button, #footer-button {
+    height: 43px;
+    width: 172px;
+    border-style: none;
+    border-radius: 30px;
+    padding: 8px 40px;
+    background: #F2707C;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    margin-block-start: 24px;
+}
+
+.hero-gif-container {
+    height: 420px;
+    width: 600px;
+    margin-left: 128px;
+    margin-right: 108px;
+    margin-block-start: 80px;
+    position: relative; /* parent element for (position: absolute) of group container*/
+}
+
+.card {
+    height: 273px;
+    width: 437px;
+    margin: 73px 79px 74px 84px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    padding-left: 31.278091430664062px;
+    position: relative; /* parent element for master container(position: absolute)*/
+}
+
+#card-chip {
+    padding-top: 86.732421875px;
+}
+
+.card-number {
+    padding: 25.79px 51.43px 10px 0px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.019em;
+    text-align: left;
+}
+
+#card-name {
+    padding-top: 28.5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.master {
+    position: absolute;
+    left: 346px;
+    top: 215px;
+    display: flex;
+}
+
+.master .circle {
+    height: 30PX;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.master .master-red {
+    background-color: #eb001b;
+}
+
+.master .master-yellow {
+    margin-left: -10px;
+    background-color: #F79E1B;
+}
+
+.group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 412px;
+    width: 599.500732421875px;
+}
+
+.starbucks {
+    position: absolute;
+    z-index: 1;
+    height: 75px;
+    width: 75px;
+    left: 268px;
+    top: 3px;
+    background: white;
+    border-radius: 50%;
+}
+.starbucks img {
+    height: 36px;
+    width: 35px;
+    margin: 20px 20px 19px 20px;
+}
+
+
+.pizzahut {
+    position: absolute;
+    z-index: 1;
+    height: 83px;
+    width: 83px;
+    left: 416px;
+    top: 11px;
+    border-radius: 50%;
+    background: white;
+}
+.pizzahut img {
+    height: 16px;
+    width: 62px;
+    margin: 33px 11px 34px 10px;
+}
+
+
+.taj {
+    position: absolute;
+    z-index: 1;
+    height: 114px;
+    width: 114px;
+    left: 464px;
+    top: 130px;
+    border-radius: 50%;
+    background: white;
+
+}
+.taj img {
+    height: 49px;
+    width: 56px;
+    margin: 31px 29px 34px;
+}
+
+
+.flipkart {
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    background: white;
+    height: 81px;
+    width: 81px;
+    left: 423px;
+    top: 332px;
+
+}
+.flipkart img {
+    height: 15px;
+    width: 57px;
+    margin: 32px 12px 34px;
+}
+
+.uber {
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    background: white;
+    height: 85px;
+    width: 85px;
+    left: 113px;
+    top: 330px;
+}
+.uber img{
+    height: 15px;
+    width: 42px;
+    margin: 35px 22px 35px 21px;
+    /* transform: skewX(2);scale____________________________________________________________to do */
+}
+
+.myntra{
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    background: white;
+    height: 89px;
+    width: 89px;
+    left: 36px;
+    top: 173px;
+}
+.myntra img {
+    height: 31px;
+    width: 44px;
+    margin: 28px 23px 30px 22px;
+}
+
+.nykaa {
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    background: white;
+    height: 79px;
+    width: 79px;
+    left: 124px;
+    top: 23px;
+}
+.nykaa img {
+    height: 19px;
+    width: 55px;
+    margin: 31px 12px 29px;
+}
+
+.plane-vector {
+    position: absolute;
+    left: 12px;
+    top: 313px;
+}
+
+.film-vector {
+    position: absolute;
+    left: 24px;
+    top: 85.14px;
+}
+
+.grocery-vector {
+    position: absolute;
+    right: 15.62px;
+    top: 53px;
+}
+.bag-vector {
+    position: absolute;
+    right: 4.14px;
+    bottom: 63.89px;
+}
+/* media query of hero starts here  */
+
+@media screen and (max-width: 480px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 16px;
+    }
+
+    .hero-text-container {
+        height: 267px;
+        width: 496px;
+        margin: 19px;
+    }
+    
+    .hero-text-container h2 {
+        font-size: 32px;
+        line-height: 44.8px;
+        text-align: center;
+    }
+    .hero-text-container p {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    #hero-button, #footer-button {
+        height: 40px;
+        width: 140px;
+        border-radius: 32px;
+    }
+    
+    .hero-gif-container {
+        height: 240px;
+        width: 343px;
+        margin: 0px 16px;
+    }
+    
+    .card {
+        height: 155px;
+        width: 248px;
+        margin: 43px 46px 42px 49px;
+        padding-left: 17.75px;
+    }
+    
+    #card-chip {
+        padding-top: 49.24;
+    }
+    
+    .card-number {
+        padding: 14.11px 29.19px 10px 0px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16.37px;
+    }
+    
+    #card-name {
+        padding-top: 16.18px;
+        font-size: 12px;
+        line-height: 17.82px;
+    }
+    
+    .master {
+        left: 247px;
+        top: 164px;
+    }
+    
+    .master .circle {
+        height: 22PX;
+        width: 22px;
+        border-radius: 50%;
+    }
+    
+    .group {
+        height: 240px;
+        width: 343px;
+        margin: 0px 16px;
+    }
+
+    .starbucks {
+        height: 42.60928726196289px;
+        width: 42.60928726196289px;
+        left: 153.392578125px;
+        top: 2px;  
+    }
+    .starbucks img {
+        margin: 11.18px 11.18px 10.65;
+        height: 20.77202796936035px;
+        width: 20.239412307739258px; 
+    }
+    
+    .pizzahut {
+        height: 47.26938247680664px;
+        width: 47.26938247680664px;
+        left: 237.87841796875px;
+        top: 6.793701171875px; 
+    }
+    .pizzahut img {
+        height: 8.863009452819824px;
+        width: 35.4520378112793px;    
+        margin: 18.91px 5.91px 19.5px;
+    }
+    
+    .taj {
+        height: 65.24506378173828px;
+        width: 65.24506378173828px;
+        left: 265.441162109375px;
+        top: 74.501953125px;
+    }
+    .taj img {
+        height: 27.729156494140625px;
+        width: 31.806970596313477px;
+        margin: 17.94px 17.13px 19.57px 16.31px;
+    }
+    
+    
+    .flipkart {
+        height: 46.204158782958984px;
+        width: 46.204158782958984px;
+        left: 242.072509765625px;
+        top: 190.1455078125px; 
+    }
+    .flipkart img {
+        height: 8.663280487060547px;
+        width: 32.34291458129883px;
+        margin: 18.48px 6.93px 19.06px;
+    }
+    
+    .uber {
+        height: 48.4677619934082px;
+        width: 48.4677619934082px;
+        left: 64.71240234375px;
+        top: 188.9471435546875px; 
+    }
+    .uber img{
+        height: 8.48185920715332px;
+        width: 24.2338809967041px;
+        margin: 19.99px 12.12px;
+    }
+    
+    .myntra{
+        height: 50.864524841308594px;
+        width: 50.864524841308594px;
+        left: 20.372314453125px;
+        top: 99.0687255859375px;      
+    }
+    .myntra img {
+        height: 17.97568130493164px;
+        width: 25.16595458984375px;
+        margin: 16px 13px;
+    }
+    
+    .nykaa {
+        height: 45.00578308105469px;
+        width: 45.00578308105469px;
+        left: 70.7041015625px;
+        top: 13.384521484375px;  
+    }
+    .nykaa img {
+        height: 10.688875198364258px;
+        width: 31.50404930114746px;
+        margin: 17.44px 6.75px 16.88px 6.75px;
+    }
+    
+    .plane-vector {
+        left: 7.08px;
+        top: 179.06px;
+    }
+    
+    .film-vector {
+        left: 16.18px;
+        top: 48.82;
+    }
+    
+    .grocery-vector {
+        right: 6.71;
+        top: 30.79px;
+    }
+    .bag-vector {
+        right: 1.9px;
+        bottom: 36.32px;
+    }
+}
+ 
+
+
+/* _____________________________________hero section ends here____________________________ */
+
+.section-container {
+    height: 392px;
+    margin-block-start: 80px;
+    background: #8E7CB5;
+    display: flex;
+}
+.section-text-container-1 {
+    height: 112px;
+    width: 600px;
+    margin-left: 108px;
+    margin-top: 93px;
+}
+.section-text-container-1 h2 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 56px;
+    color: white;
+}
+
+.section-text-container-2 {
+    height: 206px;
+    width: 495px;
+    margin: 93px auto 93px;
+    font-family: sans-serif;
+}
+.section-text-container-2 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
+.section-text-container-2 a {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    line-height: 30px;
+}
+#arrow-vector {
+    margin-left: 16px;
+}
+
+.desktop-content {
+    display: block;
+}
+.mobile-content {
+    display: none;
+}
+/* media query of section block starts here */
+
+@media screen and (max-width: 480px) {
+    .section-container {
+        flex-direction: column;
+        height: 333px;
+    }
+    .section-text-container-1 {
+        height: 72px;
+        width: 100%;
+        margin: 32px 24px 0 24px;
+    }
+    .section-text-container-1 h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .section-text-container-2 {
+        height: 229px;
+        width: 100%;
+        margin: 0px;
+    }
+    .desktop-content {
+        display: none;
+    }
+    .mobile-content {
+        display: block;
+    }
+}
+
+/* __________________________________section block ends here_______________________ */
+
+.step1 {
+    display: flex; 
+    height: 480px;  
+}
+.blue-box {
+    width: 50%;
+    background: #BFE1FF;
+}
+.step1-input-container {
+    height: 480px;
+    width: 600px;
+    margin-left: 108px;
+}
+.step1-input-container input {
+    height: 64px;
+    width: 400px;
+    border-radius: 8px;
+    margin-left: 100px;
+    margin-top: 64px;
+    border-style: none;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 16px;
+}
+.step1-input-container .fade {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.step1-text-container {
+    height: 228px;
+    width: 496px; 
+    margin: 126px 110px 230px 102px;
+    position: relative;
+}
+
+.step1-icon {
+    height: 64px;
+    width: 64px;
+    margin-block-end: 0px;
+}
+.insurance {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+.insurance-tail {
+    position: absolute;
+    left: 31.332000732421875px;
+    top: 28.666015625px;
+}
+.step1-text-container h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-block-end: 0px;
+    margin-block-start: 16px;
+}
+.step1-text-container p {
+    margin-block-start: 16px;
+    width: 394px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+/* _________________________________step1 section ends here___________________________________ */
+
+.step2 {
+    display: flex;
+    height: 608px;
+    background: #FFE4E7;
+}
+.step2-text-container {
+    height: 336px;
+    width: 496px;
+    margin-left: 108px;
+    margin-top: 136px;
+    position: relative;
+}
+
+.step2-icon {
+    height: 64px;
+    width: 64px;
+    margin-block-end: 0px;
+}
+#head {
+    position: absolute;
+    left: 18.66796875px;
+    top: 26.667999267578125px;
+}
+
+#body {
+    position: absolute;
+    top: 33.33px;
+    left: 16px;
+}
+#dash {
+    position: absolute;
+    left: 26.66796875px;
+    top: 32.33399963378906px;
+}
+#bracket {
+    position: absolute;
+    left: 29.33203125px;
+    top: 24px;  
+}
+#star-top {
+    position: absolute;
+    left: 34.6673583984375px;
+    top: 16px;
+}
+#star-bottom {
+    position: absolute;
+    left: 34.6654052734375px;
+    top: 34.667999267578125px;
+}
+
+.step2-text-container h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-block-start: 16px;
+    margin-block-end: 0px;
+}
+.step2-text-container p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-block-start: 16px;
+}
+
+.step2-gif-container {
+    height: 480px;
+    width: 600px;
+    background: #BFE1FF;
+    margin: 64px 108px 64px auto;
+} 
+/* media query of step2 start */
+@media screen and (max-width: 480px) {
+    .step2 {
+        flex-direction: column;
+    }
+}
+
+
+/*______________________________________________________gif slideshow___////////to dooooooooooooooooooooooooooooooo//////////*/
+
+.step3 {
+    display: flex;
+    height: 480px;
+    background: rgba(247, 243, 255, 1);
+
+}
+.step3-gif-container {
+    height: 480px;
+    width: 600px;
+    margin-left: 108px;   
+}
+
+.cards-flex-container {
+    display: flex;
+    margin: 0px 105px;
+    justify-content: space-between;
+}
+
+.cards {
+    height: 40.03791427612305px;
+    width: 66.7298583984375px;
+    background: #a8a1a2;
+    border-radius: 3px;
+}
+#card4 {
+    background: linear-gradient(268.73deg, #FFB9B9 9.36%, #84B5F3 99.72%);
+}
+#card3 {
+        background: url('images/cards/card3.svg');
+}
+#card2 {
+    background: url('images/cards/card2.svg');
+}   
+#card1 {
+    background: url('images/cards/card1.svg');
+}
+
+
+.step3-text-container {
+    height: 335.9999694824219px;
+    width: 495px;
+    margin: 72px 109px 72px auto;
+}
+
+.step3-text-container {
+    height: 335.9999694824219px;
+    width: 495px;
+    margin: 72px 109px 72px auto;
+    position: relative;  
+}
+
+.step3-icon {
+    height: 64px;
+    width: 64px;
+    background: white;
+    border-radius: 10px;
+    margin-block-end: 0px;
+}
+
+#roll {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+#neck {
+    position: absolute;
+    left: 27.33203125px;
+    top: 20.666015625px;
+}
+#handle {
+    position: absolute;
+    top: 36px;
+    left: 24px;
+}
+
+.step3-text-container h2  {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px; 
+    margin-block-start: 16px;
+    margin-block-end: 0px;
+}
+
+.step3-text-container p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-block-start: 16px;  
+}
+
+/* _____________________________Step3 section ends here_________________________ */
+
+.FAQ {
+    height: 444px;
+    width: 808px;
+    margin: 80px auto;
+}
+.FAQ h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+/* accordion____________ */
+.accordion {
+    background-color: white;
+    color: rgba(242, 112, 124, 1);
+    cursor: pointer;
+    padding: 16px 0px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    transition: 0.4s;
+}
+  
+.accordion:after {
+    content: url("images/down-arrow.svg");
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: url('images/up-arrow.svg');
+}
+  
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    
+    
+
+    transition: max-height 0.2s ease-out;
+}
+
+.line {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+}
+/* _____________________accorddion */
+
+footer {
+    height: 550px;
+    background: rgba(18, 25, 59, 1);
+    color: white;
+    text-align: center;
+}
+
+footer h2 {
+    padding-top: 56px;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-block-end: 0px;
+}
+footer p {
+    margin-block-start: 0px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+#footer-button {
+    background: #7C7EB5;
+}
+#footer-line {
+    border-bottom: 1px solid white;
+    margin: 65px 108px;
+    opacity: 0.5;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 108px;
+    text-align: left;
+}
+.services {
+    list-style-type: none;
+    line-height: 50px;
+
+}
