@@ -15,8 +15,7 @@ header {
 }
 
 .topnav {
-    margin: 0;
-    padding: 0;
+    margin: 40px 108px;
     overflow: hidden;
 }
 
@@ -35,7 +34,6 @@ header {
 .topLogo {
     height: 49px;
     width: 135px;
-    margin-left: 108px;
     margin-top: -13px;
     padding: 16px 24px 12px 24px;
     font-family: Objectivity;
@@ -550,8 +548,6 @@ header {
     }
 }
  
-
-
 /* _____________________________________hero section ends here____________________________ */
 
 .section-container {
